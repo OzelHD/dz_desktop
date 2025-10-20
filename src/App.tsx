@@ -22,7 +22,7 @@ function joinPath(...segments: string[]): string {
 }
 
 function App() {
-  const [opened, { toggle }] = useDisclosure();
+  const [opened, {  }] = useDisclosure();
   const [dbpath, setDbpath] = useState<string>("");
   const [basepath, setBasepath] = useState<string>("");
   const [settingsOpened, setSettingsOpened] = useState<boolean>(false);

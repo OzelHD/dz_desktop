@@ -12,7 +12,7 @@ use file_tree::read_folder_tree;
 use mouser_filler::query_mouser_part;
 use read_csv::read_csv_file;
 use settings::{get_all_settings, get_setting, remove_setting, set_setting};
-use tauri_plugin_shell::init as shell_init;
+
 use write_csv::append_to_csv;
 
 fn main() {
