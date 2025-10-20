@@ -193,7 +193,7 @@ export const AddPartModal: React.FC<AddPartModalProps> = ({
         partNumber,
       });
 
-      console.log("Mouser API result:", result);
+      console.log("Mouser API results:", result);
 
       if (!result) throw new Error("No matching part found on Mouser.");
 
